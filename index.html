@@ -4,98 +4,180 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Zgoal Systems</title>
+
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(to right, #f9f9f9, #e0f7fa);
-      color: #333;
+      background: #f5f7fa;
+      color: #2b2b2b;
+      margin: 0;
+      padding: 0;
       text-align: center;
-      padding: 50px;
     }
+
+    header {
+      padding: 40px 20px;
+      background: white;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    header img {
+      width: 160px;
+      margin-bottom: 10px;
+    }
+
     h1 {
-      font-size: 3em;
-      color: #00796b;
+      font-size: 2.6em;
+      color: #0A4C8A;
+      margin-top: 10px;
     }
+
+    h2 {
+      color: #0A4C8A;
+      margin-top: 40px;
+      font-size: 2em;
+    }
+
     p {
-      font-size: 1.2em;
-      margin-top: 20px;
+      font-size: 1.15em;
       line-height: 1.6;
+      max-width: 800px;
+      margin: 20px auto;
     }
+
+    .section {
+      padding: 40px 20px;
+    }
+
     .highlight {
-      color: #ff9800;
+      color: #1E90FF;
       font-weight: bold;
     }
-    nav a {
-      color: #00796b;
-      text-decoration: none;
-      margin: 0 10px;
-      font-weight: bold;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
+
     .button {
       display: inline-block;
-      margin-top: 30px;
-      padding: 12px 24px;
-      background-color: #00796b;
+      margin-top: 25px;
+      padding: 14px 28px;
+      background-color: #0A4C8A;
       color: white;
       text-decoration: none;
       border-radius: 6px;
       font-size: 1.1em;
       font-weight: bold;
     }
+
     .button:hover {
-      background-color: #005f54;
+      background-color: #083a6a;
     }
+
+    .product-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
+      margin-top: 30px;
+    }
+
+    .product-card {
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+      width: 280px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      text-align: left;
+    }
+
+    .product-card h3 {
+      color: #0A4C8A;
+      margin-bottom: 10px;
+    }
+
     footer {
-      margin-top: 50px;
+      margin-top: 60px;
+      padding: 20px;
+      background: #f0f0f0;
+      color: #555;
       font-size: 0.9em;
-      color: #777;
     }
   </style>
 </head>
 
 <body>
 
-  <h1>🚀 Welcome to Zgoal!</h1>
-  <img src="zgoallogo.png" alt="ZGoal Logo" width="150" />
+  <!-- HEADER -->
+  <header>
+    <img src="zgoallogo.png" alt="Zgoal Logo">
+    <h1>🚀 Zgoal Systems</h1>
+    <p>Building intelligent tools, automation workflows, and modernization systems.</p>
+  </header>
 
+  <!-- POWER PLATFORM SERVICES -->
+  <div class="section">
+    <h2>Power Platform Solutions</h2>
+    <p>
+      I help small teams and growing businesses modernize their operations using 
+      <span class="highlight">Power Apps</span>, 
+      <span class="highlight">Power Automate</span>, 
+      <span class="highlight">Power BI</span>, and 
+      <span class="highlight">Copilot Studio</span>.
+    </p>
+    <p>
+      Whether you need a custom app, automated workflow, dashboard, or AI assistant, 
+      Zgoal Systems can design a clean, efficient solution that reduces manual work and improves clarity.
+    </p>
 
-  <p>
-    We build intelligent tools, automation workflows, and cloud‑native prototypes that help people reach their goals.
-  </p>
+    <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSe5CVBZRQobzE-OzVQlqZZYhkGbkRJHsng7_dfw6kk_g0OqBg/viewform?usp=publish-editor">
+      Start a Project
+    </a>
+  </div>
 
-  <p>
-    Zgoal Systems brings together 
-    <span class="highlight">Microsoft Power Platform</span>, 
-    <span class="highlight">AI automation</span>, 
-    <span class="highlight">real estate intelligence</span>, and 
-    <span class="highlight">cloud engineering</span> 
-    to modernize manual processes and create practical systems that reduce friction.
-  </p>
+  <!-- PRODUCTS IN DEVELOPMENT -->
+  <div class="section" style="background:#ffffff;">
+    <h2>Products in Development</h2>
+    <p>Tools designed to streamline workflows, enhance productivity, and support modernization initiatives.</p>
 
-  <p>
-    If you have a paper‑based or manual workflow you'd like to modernize, we can help you design a clean, efficient, automated solution using tools like Power Automate, Power Apps, Power BI, and Copilot Studio.
-  </p>
+    <div class="product-grid">
 
-  <nav>
-    <a href="azure-checklist.md">Azure</a> |
-    <a href="ibm-checklist.md">IBM Cloud</a> |
-    <a href="dba-reminder.md">DBA Filing</a>
-  </nav>
+      <div class="product-card">
+        <h3>FlowCRM Core</h3>
+        <p>A lightweight, offline CRM with local AI for notes, emails, and follow‑ups.</p>
+      </div>
 
-  <p>
-    Serious inquiries only.  
-    Please use the form below to request a collaboration or start a project.
-  </p>
+      <div class="product-card">
+        <h3>FlowCRM Pro for Microsoft 365</h3>
+        <p>Microsoft‑integrated CRM with Outlook, OneDrive, SharePoint, and Teams automation.</p>
+      </div>
 
-  <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSe5CVBZRQobzE-OzVQlqZZYhkGbkRJHsng7_dfw6kk_g0OqBg/viewform?usp=publish-editor">Start a Project</a>
-  <!-- Replace the link above with your actual form link once created -->
+      <div class="product-card">
+        <h3>ShiftSuite Planner — Mainframe Edition</h3>
+        <p>Modernization planning for COBOL, JCL, DB2, IMS, CICS, and other mainframe stacks.</p>
+      </div>
+
+      <div class="product-card">
+        <h3>ShiftSuite Planner — Enterprise Edition</h3>
+        <p>Cross‑stack modernization for AS/400, Oracle Forms, PowerBuilder, classic .NET, and more.</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- CONTACT -->
+  <div class="section">
+    <h2>Work With Zgoal Systems</h2>
+    <p>
+      If you have a manual or paper‑based workflow you'd like to modernize, 
+      I can help you design a clean, automated system tailored to your business.
+    </p>
+
+    <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSe5CVBZRQobzE-OzVQlqZZYhkGbkRJHsng7_dfw6kk_g0OqBg/viewform?usp=publish-editor">
+      Request a Consultation
+    </a>
+  </div>
 
   <footer>
-    &copy; 2025 Zgoal. All rights reserved.
+    &copy; 2025 Zgoal Systems. All rights reserved.
   </footer>
 
 </body>
 </html>
+
